@@ -1,0 +1,19 @@
+{
+  "name": "express-reviews-api",
+  "version": "1.0.0",
+  "description": "A Node.js Express server for managing product reviews.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
